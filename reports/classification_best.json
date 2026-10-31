@@ -1,0 +1,84 @@
+{
+  "best_model": "Random Forest",
+  "imbalance": {
+    "normal_count": 28465,
+    "high_count": 28475,
+    "minority_to_majority_ratio": 0.9996,
+    "imbalanced": false,
+    "threshold_kwh": 14.77,
+    "strategy_used": "None"
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        5511,
+        1525
+      ],
+      [
+        2466,
+        4734
+      ]
+    ],
+    "Decision Tree": [
+      [
+        5324,
+        1712
+      ],
+      [
+        2406,
+        4794
+      ]
+    ],
+    "Random Forest": [
+      [
+        5483,
+        1553
+      ],
+      [
+        2433,
+        4767
+      ]
+    ],
+    "KNN": [
+      [
+        5316,
+        1720
+      ],
+      [
+        2444,
+        4756
+      ]
+    ],
+    "SVM": [
+      [
+        5426,
+        1610
+      ],
+      [
+        2439,
+        4761
+      ]
+    ],
+    "XGBoost": [
+      [
+        5371,
+        1665
+      ],
+      [
+        2358,
+        4842
+      ]
+    ],
+    "LightGBM": [
+      [
+        5360,
+        1676
+      ],
+      [
+        2363,
+        4837
+      ]
+    ]
+  },
+  "skipped": []
+}

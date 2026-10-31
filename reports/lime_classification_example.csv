@@ -1,0 +1,11 @@
+condition,weight
+Location_Highway Rest Stop <= 0.00,0.10955882381327754
+Location_Airport <= 0.00,-0.09619809781811754
+Location_Shopping Mall <= 0.00,0.08056231568827389
+time_of_day_Night <= 0.00,-0.08038544472821463
+Location_Residential Area <= 0.00,-0.07966826099300722
+ChargerType_DC Fast <= 0.00,-0.06417189805073707
+-0.90 < location_hour_prev_avg_demand <= -0.18,-0.04579550705689921
+Location_University Campus <= 0.00,-0.04157129030985215
+-0.19 < charger_prev_avg_demand <= 0.62,0.01902692323925551
+hour_cos <= -0.80,-0.018114732130255603

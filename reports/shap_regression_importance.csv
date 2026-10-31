@@ -1,0 +1,35 @@
+feature,mean_abs_shap
+location_hour_prev_avg_demand,2.0229236915474176
+ChargerType_DC Fast,1.3388578643402385
+Location_Highway Rest Stop,1.2798153441556617
+Location_Shopping Mall,0.5880862706687069
+hour_sin,0.5427261131418833
+Location_Airport,0.530260610727075
+ChargerType_AC Level 2,0.4643275809674981
+hour_cos,0.45842233418697026
+charger_prev_avg_demand,0.4168488604412745
+time_of_day_Morning,0.4164457475109177
+ChargerType_AC Level 1,0.4102565160601846
+time_of_day_Night,0.4006005646833771
+Location_Residential Area,0.34100966156008505
+hour,0.2462005429251573
+time_of_day_Evening,0.21566456594828115
+Location_University Campus,0.14160140608904642
+user_prev_avg_demand,0.11830589646653664
+Location_Business Park,0.07759600279946753
+ChargerCompany_VoltGrid,0.06845088331275227
+week_of_year,0.060158310131343345
+ChargerCompany_EcoCharge,0.05355119096225863
+month,0.04636957114716893
+Location_Downtown,0.04625585464445318
+ChargerCompany_UrbanVolt,0.034451211691705265
+is_weekend,0.029910421070341982
+time_of_day_Afternoon,0.029169452909081812
+user_prev_sessions,0.028943532578896772
+day,0.028669550502072746
+charger_sessions_prev_24h,0.020311506012894543
+Location_Hospital,0.019213257102066388
+day_of_week,0.008097450295311817
+ChargerCompany_GreenWave,0.006587894718727004
+ChargerCompany_PowerPlug,0.0038204915727590243
+charger_prev_sessions,0.0023033421636316637

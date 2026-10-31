@@ -1,0 +1,11 @@
+condition,weight
+Location_Highway Rest Stop <= 0.00,4.437397590505978
+Location_Residential Area <= 0.00,-3.797941533951889
+ChargerType_DC Fast <= 0.00,-3.1347669135366867
+Location_Airport <= 0.00,-2.423285078756057
+Location_Shopping Mall <= 0.00,2.267218103866886
+ChargerType_AC Level 1 <= 0.00,1.9463194590410091
+time_of_day_Night <= 0.00,-1.7326468779613742
+-0.90 < location_hour_prev_avg_demand <= -0.18,-1.4552388905841893
+time_of_day_Morning <= 0.00,0.9783600673433936
+0.00 < ChargerType_AC Level 2 <= 1.00,-0.8955483483713508

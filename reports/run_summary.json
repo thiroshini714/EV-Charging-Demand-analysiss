@@ -1,0 +1,111 @@
+{
+  "fast_mode": false,
+  "synthetic_data": false,
+  "raw_profile": {
+    "rows": 72288,
+    "columns": [
+      "UserID",
+      "ChargerID",
+      "ChargerCompany",
+      "Location",
+      "ChargerType",
+      "StartDay",
+      "StartTime",
+      "EndDay",
+      "EndTime",
+      "StartDatetime",
+      "EndDatetime",
+      "Duration",
+      "Demand"
+    ],
+    "dtypes": {
+      "UserID": "str",
+      "ChargerID": "str",
+      "ChargerCompany": "str",
+      "Location": "str",
+      "ChargerType": "str",
+      "StartDay": "str",
+      "StartTime": "str",
+      "EndDay": "str",
+      "EndTime": "str",
+      "StartDatetime": "str",
+      "EndDatetime": "str",
+      "Duration": "float64",
+      "Demand": "float64"
+    },
+    "missing": {
+      "ChargerCompany": 721,
+      "Location": 722,
+      "StartDatetime": 218,
+      "Duration": 360,
+      "Demand": 361
+    },
+    "duplicate_rows": 288
+  },
+  "cleaning_report": {
+    "rows_raw": 72288,
+    "duplicates_removed": 288,
+    "start_datetime_rebuilt": 216,
+    "dropped_bad_start_datetime": 0,
+    "duration_repaired": 360,
+    "dropped_end_before_start": 0,
+    "ChargerCompany_imputed": 720,
+    "Location_imputed": 720,
+    "ChargerType_imputed": 0,
+    "dropped_invalid_demand": 432,
+    "outliers_removed": 392,
+    "rows_clean": 71176
+  },
+  "eda_findings": {
+    "peak_hour": 18,
+    "busiest_location": "Business Park",
+    "highest_avg_demand_location": "Residential Area",
+    "highest_avg_demand_charger_type": "DC Fast",
+    "least_used_chargers": [
+      "CH060",
+      "CH102",
+      "CH094",
+      "CH045",
+      "CH047"
+    ],
+    "weekend_vs_weekday_avg_kwh": {
+      "Weekday": 16.8,
+      "Weekend": 16.73
+    }
+  },
+  "split": {
+    "train_rows": 56940,
+    "test_rows": 14236,
+    "train_end": "2024-08-18 14:14:12",
+    "test_start": "2024-08-18 14:15:50"
+  },
+  "regression_best": "Linear Regression",
+  "classification_best": "Random Forest",
+  "class_balance": {
+    "normal_count": 28465,
+    "high_count": 28475,
+    "minority_to_majority_ratio": 0.9996,
+    "imbalanced": false,
+    "threshold_kwh": 14.77,
+    "strategy_used": "None"
+  },
+  "explainability": {
+    "shap": "skipped (not installed)",
+    "lime": "skipped (not installed)"
+  },
+  "forecast_best": "Gradient Boosting (lags)",
+  "libraries_available": {
+    "xgboost": false,
+    "lightgbm": false,
+    "imbalanced-learn": false,
+    "shap": false,
+    "lime": false,
+    "statsmodels": false
+  },
+  "skipped": [
+    "XGBoost (package not installed)",
+    "LightGBM (package not installed)",
+    "SMOTE (imbalanced-learn not installed)",
+    "ADASYN (imbalanced-learn not installed)"
+  ]
+}

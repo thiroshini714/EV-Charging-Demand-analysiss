@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+# Large generated artifacts (regenerate with: python -m src.pipeline)
+models/*.joblib
+data/processed/*.csv
